@@ -12,7 +12,7 @@ I didn't create this tool(I'm not even an IT worker, I drew these little desktop
 Please download "桌宠_macOS.zip", once you unzip it you'll see 3 folds named: "小白_OS", "小黑_OS" and "杰克跟宠". You could just change their name into English, incase your operation systerm may not support Chinese.
 
 ### Step2：打开你的命令行终端（Open the terminal）
-在很久以前，直接双击相应文件夹中的*.app就可以直接打开桌宠（你也可以先这么试试，我猜java6可以做到？），不过随着java的更新，可能需要通过命令行去运行相应的jar文件了。
+在很久以前，双击相应文件夹中的*.app就可以直接打开桌宠（你也可以先这么试试，我猜java6可以做到？），不过随着java的更新，可能需要通过命令行去运行相应的jar文件了。
 
 Few years ago, you can just double click the .app file to launch it(you could still try it if you are using java6). But right now I guess we need to run the .jar file in command line.
 
@@ -28,20 +28,23 @@ MacOS自带一个名为“Terminal”的app，启动它，你就会得到一个�
 
 >剩下的我明天写。真的。
 >
->以后我会放图片在这里的
+>此处需要插入一个说明动画
 
-## 如何在Windows上运行桌宠（How to run shimeji on Windos）
+## 如何在Windows上运行桌宠（How to run shimeji on Windows）
 TODO【虚拟机还没搞赢就是说
 
 ## 其他
 ### 这些按钮式什么意思
-### 修改最大分裂次数
+### 修改最大分裂次数（Set MaxCount）
 
 >最大分裂次数是什么：桌宠会随机分裂成多个，最大分裂次数就是你的屏幕上最多会出现多少个桌宠的克隆。
+>
+>WHAT is MaxCount：The MAX number of desktop companions.
 
 在conf目录中，有一个名为“行動.xml”的文件，你可以用你喜欢的软件去打开它并编辑它（我会在VSCode中直接编辑，偶尔也在Terminal中用vim）
 
 文件的第5行可以看见相关的设置，修改`値=`后面的数字，即可改变最大分裂次数。
+
 `<定数 名前="maxCount" 値="3" />`
 
 ### 调整
